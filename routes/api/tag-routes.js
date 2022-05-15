@@ -19,7 +19,7 @@ router.get('/:id', (req, res) => {
  .then(tagData => res.json(tagData))
   // be sure to include its associated Product data
   .catch(err => {console.log(err); res.status(500).json(err);
-  });-
+  });
 });
 
 router.post('/', (req, res) => {
