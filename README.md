@@ -12,4 +12,4 @@ This is a Mysql database and application backend for a ecommerce site. This is b
  To start the server run: 
  npm start
 
- 
+ https://github.com/Usmchurst/E-Commerce-backend-database
