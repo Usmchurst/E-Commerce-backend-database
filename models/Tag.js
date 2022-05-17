@@ -13,7 +13,7 @@ Tag.init(
       primaryKey:true,
       autoIncrement: true
     }, 
-     categoryName: { type: DataTypes.STRING, },
+     tag_name: { type: DataTypes.STRING, },
   },
   {
     sequelize,
